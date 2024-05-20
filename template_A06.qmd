@@ -1,7 +1,7 @@
 ---
 title: "Assignment 6"
 subtitle: "STAT 201"
-author: "YOUR NAME"
+author: "Tyler Brown"
 
 format:
   html:
@@ -48,7 +48,7 @@ To get full credit for this Question you must:
 
 ## Github Repo Link
 
-[https://your-github-repo-url](https://your-github-repo-url)
+[https://your-github-repo-url](https://github.com/tylerbrown10/Brown_Tyler_201_A06)
 
 :::
 
@@ -56,8 +56,8 @@ To get full credit for this Question you must:
 
 ## Screenshot/image of RStudio
 
-![](filepath.png)
-
+![/Users/tylerbrown/Desktop/Stat201/R/Homework/Brown_Tyler_Stat201_A06/github.setup.png
+](filepath.png)
 :::
 
 
