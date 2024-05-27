@@ -101,7 +101,8 @@ Extract the value `8162` (LeBron James points) in 2 different ways:
 - using names
 
 ```{r}
-
+print(player_info[[2]][[4]])
+print(player_info$LJ$points)
 ```
 
 
@@ -112,7 +113,13 @@ Add a new named element to the end of each player's list called `height`. The he
 Print the `player_info` list to prove you were successful.
 
 ```{r}
+player_info$MJ$height <- 78
+player_info$LJ$height <- 81
+player_info$KB$height <- 78
+player_info$KA$height <- 86
+player_info$SO$height <- 85
 
+player_info
 ```
 
 
@@ -132,6 +139,12 @@ Note: this must still run correctly even if the values were to change or if anot
 
 ```{r}
 
+ppg <- list()
+
+for(player in names(player_info)){
+  ppg[[player]] <- player_info[[player]]$points / player_info[[player]]$games_played
+}
+print(ppg)
 ```
 
 
@@ -143,6 +156,9 @@ Store the output as a vector and print the results.
 
 ```{r}
 
+ppg_rounded <- sapply(ppg, round, 2)
+
+ppg_rounded
 ```
 
 
