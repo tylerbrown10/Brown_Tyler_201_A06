@@ -56,8 +56,7 @@ To get full credit for this Question you must:
 
 ## Screenshot/image of RStudio
 
-![/Users/tylerbrown/Desktop/Stat201/R/Homework/Brown_Tyler_Stat201_A06/github.setup.png
-](filepath.png)
+![](github.setup.png)
 :::
 
 
