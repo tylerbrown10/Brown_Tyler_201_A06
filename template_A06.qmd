@@ -119,7 +119,7 @@ player_info$KB$height <- 78
 player_info$KA$height <- 86
 player_info$SO$height <- 85
 
-player_info
+print(player_info)
 ```
 
 
