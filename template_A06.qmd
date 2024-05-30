@@ -261,7 +261,8 @@ Note: This code should still run successfully even if the numbers were to change
 
 ```{r}
 
-
+col_medians <- apply(Colorado[, 3:14], 1, median)
+print(paste0("The maximum median annua temperature of ", max(col_medians), " occurred in ", Colorado[[2]][[which.max(col_medians)]], " and the minimum median annual temperature of ", min(col_medians), " occurred in ", Colorado[[2]][[which.min(col_medians)]], "."))
 
 
 
